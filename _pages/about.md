@@ -3,6 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Whoami
-
-Bar Magnezi
+<div id="terminal">
+  <p id="command">whoami</p>
+  <p id="response">Bar Magnezi</p>
+</div>
