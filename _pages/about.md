@@ -35,7 +35,7 @@ permalink: /about/
 
 <script>
   const outputElement = document.querySelector('.output');
-  const text1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+  const text1 = "Bar Magnezi, \nI'm an Ethical Hacker from Israel. \nSpecialize in Malware Analysis, Reverse Engineering & Penetration Testing.";
 
   let index1 = 0;
   let wordCount1 = 0;
