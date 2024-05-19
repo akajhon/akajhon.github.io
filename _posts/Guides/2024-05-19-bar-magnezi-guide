@@ -1,0 +1,19 @@
+---
+title: "Reverse Engineering Guide"
+classes: wide
+header:
+  teaser:  /assets/images/itc.png
+ribbon: black
+description: "Unpacking Malware"
+categories:
+  - Guides
+tags:
+  - Reverse
+  - Shellcode
+  - Execution
+  - XOR
+  - Encryption
+  - WinAPI
+  - C++
+toc: true
+---
