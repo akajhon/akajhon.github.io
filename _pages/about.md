@@ -39,12 +39,15 @@ permalink: /about/
   let index1 = 0;
 
   function type1() {
-    if (index1 < text1.length) {
-      outputElement.textContent += text1.charAt(index1);
-      index1++;
-      setTimeout(type1, 20); // Constant typing speed of 100ms
+  if (index1 < text1.length) {
+    if (text1.charAt(index1) === ' ') {
+      outputElement.innerHTML += '<br>';
     }
+    outputElement.textContent += text1.charAt(index1);
+    index1++;
+    setTimeout(type1, 20); // Constant typing speed of 100ms
   }
+}
 
   setTimeout(type1, 100); // Delay the second typing animation by 2000ms
 
