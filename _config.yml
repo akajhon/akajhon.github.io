@@ -102,30 +102,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Motawkkel Abdulrhman"
+  name             : "Bar Magnezi"
   avatar           : /assets/images/site_data/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Malware Analysis Professional, Digital Forensics Investigator"
-  location         : "EIP"
+  bio              : "Malware Analysis Professional"
+  location         : "Israel"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:motawkkel.abdulrhman@gmail.com"
+      url: "mailto:barmagnezi@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ryodan0x"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://web.facebook.com/mutawakkil.don/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/motawkkel-abdulrhman-a2263a1b2/"
+      url: "https://www.linkedin.com/in/bar-magnezi-ab0987217/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ry0dan"
+      url: "https://github.com/0xMrMagnezi"
 
 # Site Footer
 footer:
