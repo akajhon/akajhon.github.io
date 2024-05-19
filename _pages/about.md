@@ -48,7 +48,7 @@ permalink: /about/
       outputElement.innerHTML += text1.charAt(index1);
     }
     index1++;
-    setTimeout(type1, 20); // Constant typing speed of 100ms
+    setTimeout(type1, 10); // Constant typing speed of 100ms
   }
 }
 
