@@ -26,7 +26,7 @@ permalink: /about/
 }
 </style>
 
-# <Whoami>
+# &lt;Whoami&gt;
 
 <div class="terminal">
   <span class="prompt">$</span> whoami<br>
@@ -37,22 +37,25 @@ permalink: /about/
   const outputElement = document.querySelector('.output');
   const text1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
   let index1 = 0;
+  let wordCount1 = 0;
 
   function type1() {
-  if (index1 < text1.length) {
-    if (text1.charAt(index1) === ' ') {
-      outputElement.innerHTML += '<br>';
+    if (index1 < text1.length) {
+      if (text1.charAt(index1) === ' ') {
+        wordCount1++;
+        if (wordCount1 % 17 === 0) {
+          outputElement.innerHTML += '<br>';
+        }
+      }
+      outputElement.textContent += text1.charAt(index1);
+      index1++;
+      setTimeout(type1, 20); // Constant typing speed of 100ms
     }
-    outputElement.textContent += text1.charAt(index1);
-    index1++;
-    setTimeout(type1, 20); // Constant typing speed of 100ms
   }
-}
 
   setTimeout(type1, 100); // Delay the second typing animation by 2000ms
 
   const text2 = 'Bar Magnezi';
   let index2 = 0;
-
 
 </script>
