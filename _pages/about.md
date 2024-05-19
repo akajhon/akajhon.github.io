@@ -35,7 +35,7 @@ permalink: /about/
 
 <script>
   const outputElement = document.querySelector('.output');
-  const text1 = "Bar Magnezi, \nI'm an Ethical Hacker from Israel. \nSpecialize in: \n* Malware Analysis \n*Reverse Engineering \n*Penetration Testing";
+  const text1 = "Bar Magnezi, \nI'm an Ethical Hacker. \nSpecialize in: \n* Malware Analysis \n* Reverse Engineering \n* Penetration Testing \n* Incident Reponse \n* Security Automation Engineer";
 
   let index1 = 0;
   let wordCount1 = 0;
@@ -48,13 +48,9 @@ permalink: /about/
       outputElement.innerHTML += text1.charAt(index1);
     }
     index1++;
-    setTimeout(type1, 10); // Constant typing speed of 100ms
+    setTimeout(type1, 17); // Constant typing speed of 100ms
   }
 }
 
   setTimeout(type1, 100); // Delay the second typing animation by 2000ms
-
-  const text2 = 'Bar Magnezi';
-  let index2 = 0;
-
 </script>
