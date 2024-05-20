@@ -34,12 +34,12 @@ It is important to gather as much information as possible before starting the re
 
 You can identify packed malware by:
 
-1. Virtual Size Discrepancy: Packed malware often has sections where the Virtual Size exceeds the Raw Size, indicating potential packing.
-2. High Entropy Sections: Packed malware may contain sections with high entropy, suggesting compression or encryption.
-3. Import Table Anomalies: Packed malware might show irregularities in the import table, like missing or incomplete entries, due to modifications by packers.
+1. **Virtual Size Discrepancy:** Packed malware often has sections where the Virtual Size exceeds the Raw Size, indicating potential packing.
+2. **High Entropy Sections:** Packed malware may contain sections with high entropy, suggesting compression or encryption.
+3. **Import Table Anomalies:** Packed malware might show irregularities in the import table, like missing or incomplete entries, due to modifications by packers.
 Most of this information can be observed using tools like PEStudio and DIE.
 
-Since the binary is 32-bit, I opened it in x32dbg and examined the entry point. After analysis, I decided to set a breakpoint at VirtualAlloc.
+Since the binary is 32-bit, I opened it in x32dbg and examined the entry point. After analysis, I decided to set a breakpoint at **VirtualAlloc**.
 
 When malware is packed, its code and data are often compressed or encrypted to evade detection. To execute its malicious payload, the malware needs to unpack itself into memory. This is where VirtualAlloc comes into play — it allows the malware to allocate memory where it can unpack and execute its payload.
 
@@ -90,12 +90,12 @@ After cleaning the code, I was left with the new EXE, which is the actual malwar
 
 # Summary
 
-1. Conduct Initial Analysis: Begin by conducting static analysis, This helps in understanding the malware’s behavior, imports, libraries, and other characteristics.
-2. Identify Packed Malware: Look for signs of packed malware, such as discrepancies in virtual size, high entropy sections, and anomalies in the import table.
-3. Set Breakpoint at VirtualAlloc: Set a breakpoint at VirtualAlloc, which is often used by packed malware to allocate memory for unpacking and executing its payload.
-4. Execute Until Breakpoint: Run the program until the breakpoint is reached. Observe changes in the EAX register, which indicate modifications in memory.
-5. Continue Execution: Continue running until the VirtualAlloc function returns. Observe memory for indications of an executable file being unpacked.
-6. Dump Unpacked File: Once the unpacking process is complete, dump the unpacked file from memory to a file. There may be some garbage code that needs to be cleaned.
+1. **Conduct Initial Analysis:** Begin by conducting static analysis, This helps in understanding the malware’s behavior, imports, libraries, and other characteristics.
+2. **Identify Packed Malware:** Look for signs of packed malware, such as discrepancies in virtual size, high entropy sections, and anomalies in the import table.
+3. **Set Breakpoint at VirtualAlloc:** Set a breakpoint at VirtualAlloc, which is often used by packed malware to allocate memory for unpacking and executing its payload.
+4. **Execute Until Breakpoint:** Run the program until the breakpoint is reached. Observe changes in the EAX register, which indicate modifications in memory.
+5. **Continue Execution:** Continue running until the VirtualAlloc function returns. Observe memory for indications of an executable file being unpacked.
+6. **Dump Unpacked File:** Once the unpacking process is complete, dump the unpacked file from memory to a file. There may be some garbage code that needs to be cleaned.
 
 
 # IOCs
