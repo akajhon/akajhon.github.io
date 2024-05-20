@@ -34,9 +34,12 @@ It is important to gather as much information as possible before starting the re
 
 You can identify packed malware by:
 
-1. **Virtual Size Discrepancy:** Packed malware often has sections where the Virtual Size exceeds the Raw Size, indicating potential packing.
-2. **High Entropy Sections:** Packed malware may contain sections with high entropy, suggesting compression or encryption.
-3. **Import Table Anomalies:** Packed malware might show irregularities in the import table, like missing or incomplete entries, due to modifications by packers.
+<ol>
+    <li><b>Virtual Size Discrepancy:</b> Packed malware often has sections where the Virtual Size exceeds the Raw Size, indicating potential packing.</li>
+    <li><b>High Entropy Sections:</b> Packed malware may contain sections with high entropy, suggesting compression or encryption.</li>
+    <li><b>Import Table Anomalies:</b> Packed malware might show irregularities in the import table, like missing or incomplete entries, due to modifications by packers.</li>
+</ol>
+
 Most of this information can be observed using tools like PEStudio and DIE.
 
 Since the binary is 32-bit, I opened it in x32dbg and examined the entry point. After analysis, I decided to set a breakpoint at **VirtualAlloc**.
