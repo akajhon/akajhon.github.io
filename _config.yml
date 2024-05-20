@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Bar Magnezi"
-  avatar           : /assets/images/logo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/me.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Malware Analysis Professional"
   location         : "Israel"
   email            :
