@@ -2,7 +2,7 @@
 title: "Reverse Engineering Guide - Unpacking Malware"
 classes: wide
 header:
-  teaser:  /assets/images/2.jpg
+  teaser:  /assets/images/ReverseEngineering_Guide_01/REGuide.PNG
 ribbon: black
 description: "Unpacking Malware using x32dbg"
 categories:
@@ -10,6 +10,7 @@ categories:
 tags:
   - Reverse
   - Encryption
+  - x32dbg
 toc: true
 ---
 ---
