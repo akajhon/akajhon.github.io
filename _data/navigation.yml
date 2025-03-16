@@ -4,7 +4,7 @@ main:
     url: /about/
   - title: "CTI"
     url: /categories/#CTI
-  - title: "Malware Analysis"
+  - title: "Analysis"
     url: /categories/#malware-analysis
   - title: "ICS/OT"
     url: /categories/#ICS
