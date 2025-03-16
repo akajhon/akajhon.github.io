@@ -43,10 +43,10 @@ permalink: /about/
 
 </style>
 
-# &lt;Whoami?&gt;
+# &lt;Whoami ?&gt;
 
 <div class="terminal">
-  <span class="prompt">$</span> whoami<br>
+  <span class="prompt">$</span> whoami<br><br>
   <span class="output"></span><br>
 </div>
 
