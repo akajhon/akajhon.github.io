@@ -20,7 +20,7 @@ title                    : "João Cezarino [akajhon]"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "João Cezarino"
-description              : "Security Analyst - CTI, Malware Analysis, Detection Engineering"
+description              : "🛡️ Security Analyst - CTI, Malware Analysis, Detection Engineering, ICS/OT"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,8 +104,8 @@ analytics:
 author:
   name             : "João Cezarino"
   avatar           : /assets/images/me.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Security Analyst - CTI, Malware Analysis, Detection Engineering"
-  location         : "Brazil"
+  bio              : "🛡️ Security Analyst - CTI, Malware Analysis, Detection Engineering, ICS/OT"
+  location         : "📌 São Paulo - Brazil"
   email            : "joaopedrorosa03@gmail.com"
   links:
     - label: "Email"
