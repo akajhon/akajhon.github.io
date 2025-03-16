@@ -33,6 +33,10 @@ permalink: /about/
   <span class="output"></span><br>
 </div>
 
+<div class="resume-link">
+  📄 <a href="/assets/docs/Resume_Joao.pdf" target="_blank">Download My Resume here!</a>
+</div>
+
 <script>
   const outputElement = document.querySelector('.output');
   const text1 = "João Cezarino, \nI'm an Security Analyst. \nSpecialized in: \n* Malware Analysis \n* Reverse Engineering \n* Cyber Threat Intelligence \n* Detection Engineering \n* Security Automation \n* ICS/OT Security ";
