@@ -105,7 +105,7 @@ author:
   name             : "João Cezarino"
   avatar           : /assets/images/me.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "🛡️ Security Analyst - CTI, Malware Analysis, Detection Engineering, ICS/OT"
-  location         : "📌 São Paulo - Brazil"
+  location         : "São Paulo - Brazil"
   #email            : "joaopedrorosa03@gmail.com"
   links:
     - label: "Email"
