@@ -24,6 +24,23 @@ permalink: /about/
   overflow: hidden;
   white-space: nowrap;
 }
+
+.resume-link {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.resume-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resume-link a:hover {
+  text-decoration: underline;
+}
+
 </style>
 
 # &lt;Whoami&gt;
@@ -34,6 +51,7 @@ permalink: /about/
 </div>
 
 <div class="resume-link">
+  <br>
   📄 <a href="/assets/docs/Resume_Joao.pdf" target="_blank">Download My Resume here!</a>
 </div>
 
