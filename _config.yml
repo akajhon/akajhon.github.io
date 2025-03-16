@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "João Cezarino"
-  avatar           : /assets/images/me.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/me.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Security Analyst - CTI, Malware Analysis, Detection Engineering"
   location         : "Brazil"
   email            : "joaopedrorosa03@gmail.com"
