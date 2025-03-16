@@ -35,7 +35,7 @@ permalink: /about/
 
 <script>
   const outputElement = document.querySelector('.output');
-  const text1 = "Bar Magnezi, \nI'm an Ethical Hacker. \nSpecialize in: \n* Malware Analysis \n* Reverse Engineering \n* Penetration Testing \n* Incident Reponse \n* Security Automation Engineer";
+  const text1 = "João Cezarino, \nI'm an Security Analyst. \nSpecialized in: \n* Malware Analysis \n* Reverse Engineering \n* Cyber Threat Intelligence \n* Detection Engineering \n* Security Automation \n* ICS/OT Security ";
 
   let index1 = 0;
   let wordCount1 = 0;

@@ -4,6 +4,10 @@ main:
     url: /categories/#malware-analysis
   - title: "Guides"
     url: /categories/#guides
+  - title: "CTI"
+    url: /categories/#CTI
+  - title: "ICS/OT"
+    url: /categories/#ICS
   - title: "All Categories"
     url: /categories
   - title: "Tags"
