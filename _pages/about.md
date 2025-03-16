@@ -27,7 +27,7 @@ permalink: /about/
 
 .resume-link {
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -43,7 +43,7 @@ permalink: /about/
 
 </style>
 
-# &lt;Whoami&gt;
+# &lt;Whoami?&gt;
 
 <div class="terminal">
   <span class="prompt">$</span> whoami<br>
@@ -57,7 +57,19 @@ permalink: /about/
 
 <script>
   const outputElement = document.querySelector('.output');
-  const text1 = "João Cezarino, \nI'm an Security Analyst. \nSpecialized in: \n* Malware Analysis \n* Reverse Engineering \n* Cyber Threat Intelligence \n* Detection Engineering \n* Security Automation \n* ICS/OT Security ";
+  const text1 = "João Cezarino, \nI'm a Committed Security Analyst. \n\n" +
+              "Specialized in: \n" +
+              "* Cyber Threat Intelligence (CTI) \n" +
+              "* Detection Engineering \n" +
+              "* ICS/OT Security \n" +
+              "* Malware Analysis & Reverse Engineering \n" +
+              "* Security Automation \n" +
+              "* Incident Response \n\n" +
+              "Passionate about cybersecurity, I develop detection rules, automate threat intelligence processes, \n" +
+              "and work on securing critical infrastructure. \n\n" +
+              "Always open to sharing knowledge and learning from others. \n" +
+              "Let's connect, exchange ideas, and collaborate on security challenges! \n\n" +
+              "📄 Feel free to check out my resume below for more details!";
 
   let index1 = 0;
   let wordCount1 = 0;
