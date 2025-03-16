@@ -32,7 +32,7 @@ permalink: /about/
 }
 
 .resume-link a {
-  color: #007bff;
+  color: #f21368;
   text-decoration: none;
   font-weight: bold;
 }
