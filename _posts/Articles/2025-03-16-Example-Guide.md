@@ -6,7 +6,7 @@ header:
 ribbon: black
 description: "Example Guide"
 categories:
-  - Articles
+  - Article
 tags:
   - Guide
   - Reverse
