@@ -9,9 +9,6 @@ categories:
   - Article
 tags:
   - Guide
-  - Reverse
-  - Encryption
-  - x32dbg
 toc: true
 ---
 ---
