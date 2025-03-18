@@ -6,8 +6,9 @@ header:
 ribbon: black
 description: "Example Guide"
 categories:
-  - Guides
+  - Articles
 tags:
+  - Guide
   - Reverse
   - Encryption
   - x32dbg

@@ -1,15 +1,9 @@
 # main links
 main:
-  - title: "About"
+  - title: "About me"
     url: /about/
-  - title: "CTI"
-    url: /categories/#CTI
-  - title: "Analysis"
-    url: /categories/#malware-analysis
-  - title: "ICS/OT"
-    url: /categories/#ICS
-  - title: "Guides"
-    url: /categories/#guides
+  - title: "Articles"
+    url: /categories/#Articles
   - title: "All Categories"
     url: /categories
   - title: "Tags"
