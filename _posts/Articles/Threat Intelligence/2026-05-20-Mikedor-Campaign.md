@@ -7,7 +7,6 @@ ribbon: crimson
 description: "Intelligence report and malware analysis of Mikedor — a cross-platform Go RAT targeting Brazil's Pix payment system, with EV code-signing abuse, HMAC-SHA256 C2 authentication, and TLS fingerprint evasion."
 categories:
   - Threat Intelligence
-  - Malware Analysis
 tags:
   - RAT
   - Go
