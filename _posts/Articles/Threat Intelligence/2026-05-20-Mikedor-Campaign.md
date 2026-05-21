@@ -16,21 +16,19 @@ tags:
   - Financial
   - Linux
   - Windows
+  - TLP:CLEAR
 toc: true
 ---
 
-**Publication Date:** May 2026  
 **TLP:** TLP:CLEAR  
-**Threat Level:** 🔴 Critical  
-**Malware Family:** Mikedor / mrmike / TrojanProxy  
-**Platforms:** Windows x64, Windows ARM64, Linux ELF x64
+**Collaboration with:** [Amaziles José](https://www.linkedin.com/in/amaziles/) 
 
-Samples:
-```
-959dca4b7989546a18a3f5e016c4bd78cfd825a1e679cefe0a355e739605937f  # w-x86.exe (Windows x64)
-6210caacd4c7a3219ad6327b714c53d286443104ba06e3c4270f7e9a5d25ecee  # w-arm64.exe (Windows ARM64)
-b8de00249df3b152e5b28c21735a6acaa649b7098d0e4195b86fd29577367da5  # Linux ELF
-```
+#Samples:
+#```
+#959dca4b7989546a18a3f5e016c4bd78cfd825a1e679cefe0a355e739605937f  # w-x86.exe (Windows x64)
+#6210caacd4c7a3219ad6327b714c53d286443104ba06e3c4270f7e9a5d25ecee  # w-arm64.exe (Windows ARM64)
+#b8de00249df3b152e5b28c21735a6acaa649b7098d0e4195b86fd29577367da5  # Linux ELF
+#```
 
 ---
 
