@@ -394,19 +394,6 @@ Definitive attribution is beyond the scope of this report. Mikedor does not yet 
 
 The operator demonstrates a level of capability inconsistent with commodity malware development: EV certificate procurement via underground channels, protocol-level TLS fingerprint spoofing, replay-protected C2 authentication, and cross-architecture Go compilation from a single clean codebase.
 
-## APT-Q-27 / GoldenEyeDog — Circumstantial Overlap
-
-APT-Q-27 (also tracked as GoldenEyeDog and Dragon Breath) is a financially motivated cluster with a confirmed Chinese nexus, primarily targeting cryptocurrency and Web3 ecosystems across Southeast Asia. Overlap with Mikedor includes:
-
-| Indicator | APT-Q-27 | Mikedor | Confidence |
-|---|---|---|---|
-| EV code-signing via Chinese entities | Sectigo EV confirmed | Sectigo EV, Pingxiang De'a Zhiyun (Jiangxi, CN) | **Moderate** |
-| Go-based financial tooling | Winos 4.0, ValleyRAT | Pure Go RAT | **Low-Moderate** |
-| Financial sector targeting | Crypto / Web3 / SEA | Brazilian financial / Pix / LATAM | **Moderate** — sector overlap, geographic divergence |
-| IP-level infrastructure | CTG Server Limited ASNs | `56.155.111.29` (ohlabartproject) in overlapping ASN ranges | **Low** |
-
-**Assessment — Confidence: LOW.** The similarities are real but not uniquely identifying. Sectigo EV abuse, Go tooling, and financial targeting are characteristics shared by multiple distinct China-nexus groups. No confirmed IOC overlap exists.
-
 ## Summary Attribution Table
 
 | Hypothesis | Confidence | Key Evidence |
@@ -451,7 +438,8 @@ rule Mikedor_GoRAT_CustomSocks5
             $build_path
         )
 }
-
+```
+```yara
 rule Mikedor_Linux_ELF
 {
     meta:
@@ -475,7 +463,7 @@ rule Mikedor_Linux_ELF
 
 ## Sigma (Proxy — Network Detection)
 
-```yaml
+```yara
 title: Mikedor RAT C2 Check-in
 id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 status: experimental
@@ -501,7 +489,7 @@ level: high
 
 ## Pivoting Queries (VirusTotal)
 
-```
+```yara
 # Operator's build path — most precise pivot
 content:"Users/panda/Documents/__SERVER/"
 
@@ -556,7 +544,7 @@ certificate_serial:"6c5efe09cd24511fddd320dd409c2d03"
 
 ## Domains
 
-```
+```yara
 # Confirmed C2
 webhook902.securitysolut.com
 webhook5000.securitysolut.com
@@ -574,7 +562,7 @@ subdomain.security-checkers.com
 
 ## File Hashes (SHA256)
 
-```
+```yara
 # Windows PE — confirmed
 959dca4b7989546a18a3f5e016c4bd78cfd825a1e679cefe0a355e739605937f  # w-x86.exe (x64)
 6210caacd4c7a3219ad6327b714c53d286443104ba06e3c4270f7e9a5d25ecee  # w-arm64.exe
