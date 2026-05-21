@@ -23,14 +23,24 @@ $notice-background-mix: 90% !default;
 $code-notice-background-mix: 95% !default;
 
 /* neon syntax highlighting (base16) */
-$base00: #ffffff !default;
-$base01: #e0e0e0 !default;
-$base02: #d0d0d0 !default;
-$base03: #b0b0b0 !default;
-$base04: #000000 !default;
-$base05: #101010 !default;
-$base06: #151515 !default;
-$base07: #202020 !default;
+//$base00: #ffffff !default;
+//$base01: #e0e0e0 !default;
+//$base02: #d0d0d0 !default;
+//$base03: #b0b0b0 !default;
+//$base04: #000000 !default;
+//$base05: #101010 !default;
+//$base06: #151515 !default;
+//$base07: #202020 !default;
+
+/* neon syntax highlighting (base16) */
+$base00: #1d1118 !default; // fundo do bloco
+$base01: #2a1722 !default;
+$base02: #3a1f2f !default;
+$base03: #5d3d4d !default;
+$base04: #b88ca2 !default; // comentários / gutter
+$base05: #fff6fb !default; // texto principal
+$base06: #ffe1ef !default;
+$base07: #ffffff !default;
 $base08: #ff0086 !default;
 $base09: #fd8900 !default;
 $base0a: #aba800 !default;
@@ -43,7 +53,7 @@ $base0f: #cc6633 !default;
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
 .page__footer-follow .social-icons i,
-.page__footer-follow .social-icons .svg-inline--fa  {
+.page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
 }
 
